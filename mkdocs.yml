@@ -29,19 +29,8 @@ theme:
     - content.code.annotate
 
 markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed:
-      alternate_style: true
+  - codehilite
   - admonition
-  - pymdownx.details
   - attr_list
   - md_in_html
   - toc:
@@ -66,4 +55,4 @@ nav:
     - "ADR-0003: Terminology and Structure": docs/adr/0003-terminology-and-structure.md
     - "ADR-0004: Section Reuse via Includes": docs/adr/0004-section-reuse-via-includes.md
 
-copyright: Copyright &copy; 2024 Pavel
+copyright: Copyright &copy; 2026 Pavel Serikov
