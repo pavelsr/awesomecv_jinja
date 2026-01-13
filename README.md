@@ -18,6 +18,7 @@ Generate professional CVs, resumes, and cover letters from YAML/JSON data using 
 - [Development](#development)
 - [Credits](#credits)
 - [License](#license)
+- [Links](#links)
 
 ## Features
 
@@ -165,3 +166,8 @@ Based on [Awesome-CV](https://github.com/posquit0/Awesome-CV) by [@posquit0](htt
 
 - Code: MIT
 - Awesome-CV templates: LPPL-1.3c
+
+## Links
+
+- PyPI: https://pypi.org/project/awesomecv-jinja/
+- Read the Docs: https://awesomecv-jinja.readthedocs.io/
