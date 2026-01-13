@@ -61,9 +61,9 @@ nav:
       - New Template: docs/promt_new_tpl.md
   - Architecture Decision Records:
     - ADR Index: docs/adr/README.md
-    - ADR-0001: Custom Jinja2 Delimiters: docs/adr/0001-custom-jinja2-delimiters.md
-    - ADR-0002: Upstream Repository Management: docs/adr/0002-upstream-repository-management.md
-    - ADR-0003: Terminology and Structure: docs/adr/0003-terminology-and-structure.md
-    - ADR-0004: Section Reuse via Includes: docs/adr/0004-section-reuse-via-includes.md
+    - "ADR-0001: Custom Jinja2 Delimiters": docs/adr/0001-custom-jinja2-delimiters.md
+    - "ADR-0002: Upstream Repository Management": docs/adr/0002-upstream-repository-management.md
+    - "ADR-0003: Terminology and Structure": docs/adr/0003-terminology-and-structure.md
+    - "ADR-0004: Section Reuse via Includes": docs/adr/0004-section-reuse-via-includes.md
 
 copyright: Copyright &copy; 2024 Pavel
