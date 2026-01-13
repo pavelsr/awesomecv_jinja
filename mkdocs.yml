@@ -5,28 +5,7 @@ repo_url: https://github.com/pavelsr/awesomecv_jinja
 repo_name: pavelsr/awesomecv_jinja
 
 theme:
-  name: material
-  palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.code.annotate
+  name: readthedocs
 
 markdown_extensions:
   - codehilite
