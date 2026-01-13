@@ -1,0 +1,74 @@
+[project]
+name = "awesomecv-jinja"
+version = "0.1.0"
+description = "Beautiful LaTeX CV templates powered by Jinja2"
+readme = "README_PYPI.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Pavel", email = "stonksit@yandex.com" }
+]
+requires-python = ">=3.10"
+keywords = [
+    "latex",
+    "cv",
+    "resume",
+    "jinja2",
+    "template",
+    "awesome-cv",
+    "pdf",
+    "document-generation",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing :: Markup :: LaTeX",
+    "Topic :: Office/Business",
+]
+dependencies = [
+    "jinja2>=3.1.0",
+    "pyyaml>=6.0",
+]
+
+[project.scripts]
+acv = "awesomecv_jinja.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "ruff>=0.1.0",
+    "tomli>=2.0.0; python_version<'3.11'",  # For reading version from pyproject.toml in dev mode
+]
+
+[project.urls]
+Homepage = "https://github.com/pavelsr/awesomecv_jinja"
+Documentation = "https://github.com/pavelsr/awesomecv_jinja#readme"
+Repository = "https://github.com/pavelsr/awesomecv_jinja.git"
+Issues = "https://github.com/pavelsr/awesomecv_jinja/issues"
+"Original Awesome-CV" = "https://github.com/posquit0/Awesome-CV"
+
+[build-system]
+requires = ["uv_build>=0.9.3,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP"]
+ignore = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]

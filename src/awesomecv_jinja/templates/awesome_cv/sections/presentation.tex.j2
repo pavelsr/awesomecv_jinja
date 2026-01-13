@@ -1,0 +1,35 @@
+((# Auto-generated from Awesome-CV #))
+((# License: CC BY-SA 4.0 #))
+((# Source: https://github.com/posquit0/Awesome-CV #))
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Presentation}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+((* for presentation in presentations *))
+  \cventry
+    {((( presentation.title | latex_escape )))} % Role/Title
+    {((( presentation.event | latex_escape )))} % Event
+    {((( presentation.location | latex_escape )))} % Location
+    {((( presentation.date | latex_escape )))} % Date(s)
+    {
+      ((* if presentation.details -*))
+      \begin{cvitems} % Description(s)
+        ((* for item in presentation.details -*))
+        \item {((( item | latex_escape )))}
+        ((* endfor -*))
+      \end{cvitems}
+      ((* endif -*))
+    }
+
+%---------------------------------------------------------
+((* endfor *))
+\end{cventries}
+

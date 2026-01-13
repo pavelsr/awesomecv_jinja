@@ -1,0 +1,23 @@
+# Include README and license
+include README.md
+include LICENSE
+include CONTRIBUTING.md
+
+# Include package data (templates)
+recursive-include src/awesomecv_jinja/templates *.tex.j2
+recursive-include src/awesomecv_jinja/templates *.cls
+
+# Include type hints marker
+include src/awesomecv_jinja/py.typed
+
+# Exclude development files
+prune dev
+prune examples/output
+prune tests
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude *.so
+global-exclude .DS_Store
+global-exclude .gitignore
+
+
