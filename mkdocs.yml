@@ -18,20 +18,20 @@ markdown_extensions:
 nav:
   - Home: index.md
   - User Guide:
-    - CLI Usage: docs/cli_usage.md
-    - Docker Setup: docs/docker_setup.md
-    - Template Variables: docs/awesomecv_tpl_vars.md
-    - Educational Use: docs/educational_use.md
+    - CLI Usage: cli_usage.md
+    - Docker Setup: docker_setup.md
+    - Template Variables: awesomecv_tpl_vars.md
+    - Educational Use: educational_use.md
   - Development:
-    - Publishing: docs/publishing.md
+    - Publishing: publishing.md
     - Prompts:
-      - Awesome-CV Template: docs/promt_awesomecv.md
-      - New Template: docs/promt_new_tpl.md
+      - Awesome-CV Template: promt_awesomecv.md
+      - New Template: promt_new_tpl.md
   - Architecture Decision Records:
-    - ADR Index: docs/adr/README.md
-    - "ADR-0001: Custom Jinja2 Delimiters": docs/adr/0001-custom-jinja2-delimiters.md
-    - "ADR-0002: Upstream Repository Management": docs/adr/0002-upstream-repository-management.md
-    - "ADR-0003: Terminology and Structure": docs/adr/0003-terminology-and-structure.md
-    - "ADR-0004: Section Reuse via Includes": docs/adr/0004-section-reuse-via-includes.md
+    - ADR Index: adr/README.md
+    - "ADR-0001: Custom Jinja2 Delimiters": adr/0001-custom-jinja2-delimiters.md
+    - "ADR-0002: Upstream Repository Management": adr/0002-upstream-repository-management.md
+    - "ADR-0003: Terminology and Structure": adr/0003-terminology-and-structure.md
+    - "ADR-0004: Section Reuse via Includes": adr/0004-section-reuse-via-includes.md
 
 copyright: Copyright &copy; 2026 Pavel Serikov
