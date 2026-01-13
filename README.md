@@ -1,3 +1,7 @@
+<h1 align="center">
+<img src="https://raw.githubusercontent.com/pavelsr/awesomecv_jinja/main/assets/logo_greyscale.svg" width="300">
+</h1><br>
+
 # awesomecv-jinja
 
 Generate professional CVs, resumes, and cover letters from YAML/JSON data using [Awesome-CV](https://github.com/posquit0/Awesome-CV) LaTeX templates.
